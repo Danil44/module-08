@@ -19,95 +19,65 @@
     border-radius: 50%;
 }
 
-.img {
+.partner-photo {
     position: relative;
     width: 120px;
     height: 120px;
     margin: 0 auto 21px auto;
 }
 
-.tv_icon {
-    padding: 15px;
+.partner-photo::after {
+    content: '';
+    display: block;
     position: absolute;
-    background-color: #ff4e50;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
     right: 0;
     top: 75%;
-}
-
-.tv {
-    background-image: url(../img/tv.png);
-    background-repeat: no-repeat;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-image: url('../img/tv.png');
     background-position: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: -8%;
-    right: 0%;
+    background-color: #ff4e50;
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
 }
 
-.bottle_icon {
-    padding: 15px;
+.bottle_icon::after {
     position: absolute;
     background-color: #ffa507;
     border: 3px solid #ffffff;
     border-radius: 50%;
     right: 0;
     top: 75%;
-}
-
-.bottle {
-    background-image: url(../img/bottle.png);
-    background-repeat: no-repeat;
+    background-image: url('../img/bottle.png');
     background-position: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: -8%;
-    right: 0%;
+    background-size: 15px 19px;
 }
 
-.tea_icon {
-    padding: 15px;
+.tea_icon::after {
     position: absolute;
     background-color: #1cd7ad;
     border: 3px solid #ffffff;
     border-radius: 50%;
     right: 0;
     top: 75%;
+    background-image: url('../img/tea.png');
+    background-position: 6px 4px;
+    background-size: 21px 22px;
 }
 
-.tea {
-    background-image: url(../img/tea.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: -8%;
-    right: 0%;
-}
 
-.message_icon {
-    padding: 15px;
+.message_icon::after {
     position: absolute;
     background-color: #4e73db;
     border: 3px solid #ffffff;
     border-radius: 50%;
     right: 0;
     top: 75%;
-}
-
-.message {
-    background-image: url(../img/message.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    top: -8%;
-    right: 0%;
+    background-image: url('../img/message.png');
+    background-position: 6px 7px;
+    background-size: 20px 21px;
 }
 
 .partner_name {
